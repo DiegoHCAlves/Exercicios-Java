@@ -27,9 +27,6 @@ public class Exercicio01 {
             int quilometragem = Integer.parseInt(JOptionPane.showInputDialog(null, "Digite a quilometragem do carro:"));
 
             Carro carro = new Carro(nome, marca, tipo, cor, quilometragem);
-            /*JOptionPane.showMessageDialog(null, "O nome do carro é " + carro.getNome() + "\n"
-            + "A marca do carro é " + carro.getMarca() + "\nO tipo do carro é " + carro.getTipo() + "\n"
-            + "A cor do carro é " + carro.getCor() + "\nA quilometrage do carro é " + carro.getQuilometragem());*/
            
             int opcao = JOptionPane.showConfirmDialog(null,"Deseja cadastrar outro carro?");
 
